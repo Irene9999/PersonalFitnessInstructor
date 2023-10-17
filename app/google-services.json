@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "90898085002",
+    "project_id": "personalfitnessinstructo-c9065",
+    "storage_bucket": "personalfitnessinstructo-c9065.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90898085002:android:1a40d0c0d506405c1a6973",
+        "android_client_info": {
+          "package_name": "com.example.personalfitnessinstructor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhCb8BVKTXEalTgWXqdqiVx6KllAM5-0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

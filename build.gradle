@@ -1,0 +1,33 @@
+buildscript {
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.14'
+    }
+}// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '8.0.2' apply false
+    id 'com.android.library' version '8.0.2' apply false
+    id 'org.jetbrains.kotlin.android' version '1.7.20' apply false
+}
+@Override
+protected void onSaveInstanceState(Bundle outState) {
+    webView.saveState(outState);
+    super.onSaveInstanceState(outState);
+}
+webView = (WebView) findViewById;
+webView.setWebViewClient(new WebViewClient());
+WebSettings webSettings = webView.getSettings();
+webSettings.setJavaScriptEnabled(true);
+if (savedInstanceState != null)
+    webView.restoreState(savedInstanceState);
+else
+    webView.loadUrl(ссылка)
+binding.mainWebView.settings.domStorageEnabled = true
+binding.mainWebView.settings.javaScriptCanOpenWindowsAutomatically = true
+val cookieManager = CookieManager.getInstance()
+cookieManager.setAcceptCookie(true)
+val mWebSettings = this.settings mWebSettings.javaScriptEnabled = true
+mWebSettings.loadWithOverviewMode = true mWebSettings.useWideViewPort = true
+mWebSettings.domStorageEnabled = true mWebSettings.databaseEnabled = true
+mWebSettings.setSupportZoom(false) mWebSettings.allowFileAccess = true
+mWebSettings.allowContentAccess = true mWebSettings.loadWithOverviewMode = true
+mWebSettings.useWideViewPort = true

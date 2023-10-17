@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp"
+tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/titleTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="My Personal Fitness Instructor"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="16dp" />
+
+<EditText
+    android:id="@+id/nameEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your name" />
+
+<Button
+    android:id="@+id/startButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Start Workout"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/instructionsTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Instructions:"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:layout_marginTop="24dp" />
+
+<TextView
+    android:id="@+id/workoutInstructionsTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Do 10 push-ups, 20 squats, and 30 sit-ups."
+    android:layout_marginTop="8dp" />
+
+</LinearLayout>
